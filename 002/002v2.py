@@ -14,7 +14,6 @@ score = 0
 plays = ["A", "B", "C"]
 points = {"A": 1, "B": 2, "C": 3}
 
-import pdb; pdb.set_trace()
 for elf, res in games:
     if res == "X":
         # Need to lose, so -1 in the array of plays
